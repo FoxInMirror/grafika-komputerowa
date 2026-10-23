@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Laboratorium 2 - OpenGL 2D.
-# Uruchomienie: python Labolatorium 2 - Oliwier Urbański.py
+# Uruchomienie: python Laboratorium 2 - Oliwier Urbański.py
 #
 #   1 - trojkat z trzema kolorami
 #   2 - prostokaty z losowymi kolorami i deformacja
@@ -15,7 +15,7 @@ from OpenGL.GL import *
 
 DEPTH = 8
 
-SCENE = 4  # aktualnie rysowana scena
+SCENE = 2  # aktualnie rysowana scena
 
 DISTORTION = 0.2
 
