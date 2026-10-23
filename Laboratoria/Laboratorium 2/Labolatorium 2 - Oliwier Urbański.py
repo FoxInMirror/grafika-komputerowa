@@ -17,6 +17,8 @@ DEPTH = 8
 
 SCENE = 4  # aktualnie rysowana scena
 
+DISTORTION = 0.2
+
 def startup():
     update_viewport(None, 400, 400)
     glClearColor(0.5, 0.5, 0.5, 1.0)
@@ -96,7 +98,7 @@ def render(time):
     if SCENE == 1:
         draw_color_triangle()
     elif SCENE == 2:
-        draw_rectangle(0, 0, 100,100, 0.1)
+        draw_rectangle(0, 0, 100,100, DISTORTION)
     elif SCENE == 3:
         draw_sierpinski_carpet(-100, -100, 200, DEPTH)
     else:
