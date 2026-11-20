@@ -15,7 +15,7 @@ from OpenGL.GL import *
 
 DEPTH = 8
 
-SCENE = 2  # aktualnie rysowana scena
+SCENE = 4  # aktualnie rysowana scena
 
 DISTORTION = 0.2
 
